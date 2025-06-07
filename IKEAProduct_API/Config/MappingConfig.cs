@@ -11,8 +11,9 @@ namespace IKEAProduct_API.Config
         {
 
             CreateMap<Product, ProductListItemDto>()
-            .ForMember(dest => dest.ProductType, opt => opt.MapFrom(src => src.ProductType.Name))
-            .ForMember(dest => dest.Colours, opt => opt.MapFrom(src => src.ProductColours.Select(pc => pc.Colour.Name).ToList()));
+            .ForMember(dest => dest.ProductType, opt => opt.MapFrom(src => src.ProductType))
+            .ForMember(dest => dest.Colours, opt => opt.MapFrom(src => src.ProductColours.Select(pc => pc.Colour)));
+
 
             CreateMap<Product, ProductDTO>()
                 .ForMember(dest => dest.Colours, opt => opt.Ignore())
