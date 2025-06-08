@@ -2,7 +2,7 @@
 
 namespace IKEAProduct_API.Repository.IRepository
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductTypeRepository : IRepository<ProductType>
     {
     }
 }

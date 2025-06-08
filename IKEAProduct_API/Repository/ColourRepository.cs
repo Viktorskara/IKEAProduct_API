@@ -7,10 +7,10 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace IKEAProduct_API.Repository
 {
-    public class ColourRepository : Repository<Colour>, IColourRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;        
-        public ColourRepository(ApplicationDbContext db) : base(db)
+        public ProductRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }      

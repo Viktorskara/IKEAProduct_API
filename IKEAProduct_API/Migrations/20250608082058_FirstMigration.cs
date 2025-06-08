@@ -100,7 +100,15 @@ namespace IKEAProduct_API.Migrations
                 values: new object[,]
                 {
                     { 1, "Sofa" },
-                    { 2, "Chair" }
+                    { 2, "Chair" },
+                    { 3, "Table" },
+                    { 4, "Nightstand" },
+                    { 5, "Bookshelf" },
+                    { 6, "Dining Table" },
+                    { 7, "Wardrobe" },
+                    { 8, "Desk" },
+                    { 9, "Lamp" },
+                    { 10, "Recliner" }
                 });
 
             migrationBuilder.InsertData(

@@ -152,6 +152,46 @@ namespace IKEAProduct_API.Migrations
                         {
                             Id = 2,
                             Name = "Chair"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Table"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Nightstand"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Bookshelf"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Dining Table"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Wardrobe"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Desk"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "Lamp"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Name = "Recliner"
                         });
                 });
 

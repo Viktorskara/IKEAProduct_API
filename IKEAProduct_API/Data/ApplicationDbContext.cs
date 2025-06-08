@@ -18,7 +18,15 @@ namespace IKEAProduct_API.Data
 
             modelBuilder.Entity<ProductType>().HasData(
                 new ProductType { Id = 1, Name = "Sofa" },
-                new ProductType { Id = 2, Name = "Chair" }
+                new ProductType { Id = 2, Name = "Chair" },
+                new ProductType { Id = 3, Name = "Table" },
+                new ProductType { Id = 4, Name = "Nightstand" },
+                new ProductType { Id = 5, Name = "Bookshelf" },
+                new ProductType { Id = 6, Name = "Dining Table" },
+                new ProductType { Id = 7, Name = "Wardrobe" },
+                new ProductType { Id = 8, Name = "Desk" },
+                new ProductType { Id = 9, Name = "Lamp" },
+                new ProductType { Id = 10, Name = "Recliner" }
             );
 
             modelBuilder.Entity<Colour>().HasData(
